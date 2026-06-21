@@ -17,5 +17,17 @@ public class CsesHelp {
         System.out.println();
         System.out.println("Template file:");
         System.out.println("  app/src/main/java/cses/ProblemTemplate.java");
+        System.out.println();
+        System.out.println("Scaffold a new problem:");
+        System.out.println("  ./new-problem.sh YourProblem");
+        System.out.println();
+        System.out.println("Run fast development test:");
+        System.out.println("  ./test-dev.sh WeirdAlgorithm");
+        System.out.println();
+        System.out.println("Run comprehensive zip tests:");
+        System.out.println("  ./test-cses-zip.sh WeirdAlgorithm /path/to/WeirdAlgorithm.zip");
+        System.out.println();
+        System.out.println("Dataset architecture notes:");
+        System.out.println("  docs/dataset-strategy.md");
     }
 }
