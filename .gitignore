@@ -82,3 +82,9 @@ ehthumbs_vista.db
 *~
 .fuse_hidden*
 .directory
+
+# Ignore Gradle build output directory
+build
+
+# Ignore Kotlin plugin data
+.kotlin
