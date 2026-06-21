@@ -1,16 +1,9 @@
-# Compiled class file
+# ==========================================
+# Compiled Java Source
+# ==========================================
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -18,7 +11,74 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# ==========================================
+# Maven Build Tool
+# ==========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# If using the Maven Wrapper, do NOT ignore the wrapper jar/properties
+!.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# Gradle Build Tool
+# ==========================================
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Cache of project tasks
+.gradletasknamecache
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ==========================================
+# Eclipse IDE
+# ==========================================
+.metadata
+.classpath
+.project
+.settings/
+*.launch
+bin/
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
